@@ -495,7 +495,7 @@ plt.tight_layout()
 plt.show()''',language='python')
 
             
-    elif == "Prediction:
+    elif == "Prediction":
         st.title("Machine Learning Model - Conclusion")
         st.header("Conclusion")
         st.write('''Based on the modeling that has been done using Logistic Regression, Random Forest and Gradiant Boost, it can be concluded that to predict churn from telco customers using this dataset the best model is the **Logistic Regression algorithm**.
@@ -503,6 +503,7 @@ plt.show()''',language='python')
 \nThis is because the performance of the Logistic Regression model tends to be able to predict equally well in the training and testing phases **(80% training accuracy, 79% testing accuracy)**, on the other hand, other algorithms tend to over-fitting their performance.
 
 \nHowever, this does not make us draw the conclusion that if to do any modeling we use Logistic Regression, we still have to do a lot of model experiments to determine which one is the best.''')        
+    
     else:
         st.title("Machine Learning Model - Prediction")
         st.header("Attribute List")
