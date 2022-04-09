@@ -532,7 +532,7 @@ plt.show()''',language='python')
             paperless = st.radio("Does customer have paperless billing?", ["Yes",'No'])
         
         monthly = st.number_input("Monthly Charge : The amount charged to the customer monthly", 0.000000, 170.000000)
-        total = st.number_input("Total Charge : The total amount charged to the customer", 0, 9000.000000)
+        total = st.number_input("Total Charge : The total amount charged to the customer", 0.000000, 9000.000000)
         st.write(" ")
         st.write(" ")
         st.write(" ")
