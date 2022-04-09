@@ -114,13 +114,13 @@ print(y_test.value_counts(normalize=True))
                 if choose == "Data Train":
                     st.subheader("The Classification Report Training Model of Logistic Regression")
                     st.write("From the **training data**, it can be seen that the model is able to predict the data by producing an **accuracy of 80%.**")
-                    img = Image.open("E:\Portofolio\classification report image\log train.jpg")
+                    img = Image.open("log train.jpg")
                     st.image(img)
                 
                 else:
                     st.subheader("The Classification Report Testing Model of Logistic Regression")
                     st.write(" Meanwhile From the **data testing**, it can be seen that the model is able to predict the data by producing an **accuracy of 79%.**")
-                    img = Image.open("E:\Portofolio\classification report image\log test.jpg")
+                    img = Image.open("log test.jpg")
                     st.image(img)
 
         st.write(" ")
