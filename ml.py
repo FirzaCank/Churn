@@ -594,10 +594,15 @@ plt.show()''',language='python')
                 st.warning("Customer has a Tendency to **Churn**")
                 prob_score = {"Probability to Churn" : prob[0][1], "Probability to not Churn" : prob[0][0]}
                 st.write(prob_score)
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
                 
         with st.expander('Click here to see the code 👉'):
             
-            st.write('''file = open('best_model_churn', 'wb')
+            st.code('''file = open('best_model_churn', 'wb')
                 joblib.dump(log_model, file)
                 file.close()
 
