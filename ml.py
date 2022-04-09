@@ -495,7 +495,7 @@ plt.tight_layout()
 plt.show()''',language='python')
 
             
-    elif choose == "Prediction":
+    elif choose == "Conclusion":
         st.title("Machine Learning Model - Conclusion")
         st.header("Conclusion")
         st.write('''Based on the modeling that has been done using Logistic Regression, Random Forest and Gradiant Boost, it can be concluded that to predict churn from telco customers using this dataset the best model is the **Logistic Regression algorithm**.
