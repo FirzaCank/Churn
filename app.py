@@ -6,7 +6,7 @@ from clean import clean
 from PIL import Image
 import pandas as pd
 
-img = Image.open("Header\Header.png")
+img = Image.open("Header.png")
 st.image(img)
 
 df_load = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv')
