@@ -584,6 +584,27 @@ plt.show()''',language='python')
                 st.warning("Customer has a Tendency to **Churn**")
                 prob_score = {"Probability to Churn" : prob[0][1], "Probability to not Churn" : prob[0][0]}
                 st.write(prob_score)
+                
+        with st.expander('Click here to see the code 👉'):
+            
+            st.write('''file = open('best_model_churn', 'wb')
+                joblib.dump(log_model, file)
+                file.close()
+
+                data = joblib.load('best_model_churn')
+                prediction = data.predict(input)
+
+                prob = data.predict_proba(input)
+
+                if prediction == 0:
+                    st.success("Customer has a Tendency to **not Churn**")
+                    prob_score = {"Probability to not Churn" : prob[0][0], "Probability to Churn" : prob[0][1]}
+                    st.write(prob_score)
+
+                else:
+                    st.warning("Customer has a Tendency to **Churn**")
+                    prob_score = {"Probability to Churn" : prob[0][1], "Probability to not Churn" : prob[0][0]}
+                    st.write(prob_score)''')
     else:
         st.title("Machine Learning Model - Conclusion")
         st.header("Conclusion")
