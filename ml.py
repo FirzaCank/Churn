@@ -35,7 +35,7 @@ def ml():
     #Splitting train and test
     x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-    submenu = ["Data Preprocessing","Classification Report","Confusion Matrix","Prediction",'Conclusion']
+    submenu = ["Data Preprocessing","Classification Report","Confusion Matrix","Conclusion",'Prediction']
     choice = st.sidebar.selectbox("Machine Learning Menu", submenu)
     split = ['Data Train','Data Test']
     model = ['Training Model','Testing Model']
