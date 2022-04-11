@@ -102,6 +102,6 @@ with st.sidebar:
     st.image(imag)
 
     st.write(" ")
-    Linkedin = "[Firza Chandra Sandjaya Putra](https://www.linkedin.com/in/firza-chandra-sandjaya-putra-246762136/)"
+    Linkedin = "[Firza Chandra Sandjaya Putra](https://lynk.id/firzacank)"
     st.text("Streamlit by: ")
     st.write(Linkedin)
