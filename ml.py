@@ -502,8 +502,25 @@ plt.show()''',language='python')
 
 \nThis is because the performance of the Logistic Regression model tends to be able to predict equally well in the training and testing phases **(80% training accuracy, 79% testing accuracy)**, on the other hand, other algorithms tend to over-fitting their performance.
 
-\nHowever, this does not make us draw the conclusion that if to do any modeling we use Logistic Regression, we still have to do a lot of model experiments to determine which one is the best.''')        
-    
+\nHowever, this does not make us draw the conclusion that if to do any modeling we use Logistic Regression, we still have to do a lot of model experiments to determine which one is the best.''')
+        
+        st.write(" ")
+        st.write(" ")
+        
+        st.subheader("Insight for Business Perspective")
+        st.write('''in the Exploratory Data Analysis (EDA) section, it can be seen which variables have a customer tendency to churn.
+
+For example in the TV streaming variable section, **there is a customer tendency to churn for customers who use the service**, then there is a possibility that the customer who uses streamingTV is not satisfied with the service, so in the StreamingTV variable must be fixed in order to reduce the churn rate in the future, either repaired from in terms of quality, price, or services.
+''')
+        st.write(" ")
+        st.write(" ")
+        
+        st.subheader("Insight in Machine Learning Prespective")
+        st.write('''The application of machine learning can help decision making for the management level on decision makers quickly and accurately with a high level of accuracy where the decision-making process is obtained from the results of the analysis carried out.
+
+An example of a decision making is if a customer or a certain customer group is known early on that the customer is likely to leave the company/services, it can be detained in various ways including by providing attractive promotions and so on. This can **minimize the promotion and marketing budget that is spent because of this predictive model so there is no need to spend a lot of cost on customers who are not predicted to churn**.''')
+        
+        
     else:
         st.title("Machine Learning Model - Prediction")
         st.header("Attribute List")
