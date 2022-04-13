@@ -70,7 +70,12 @@ def main():
         st.write("""The goal of this analysis is to build a machine learning model that can predict whether a customer will churn or not. Several steps will be taken, such as :
         \n1. Cleansing and Tranformation Data
         \n2. Exploratory Data Analysis (EDA)
-        \n3. Build Machine Learning Model""")
+        \n3. Build Machine Learning Model
+        \n - Data Preprocessing
+        \n - Classification Report
+        \n - Confusion Matrix
+        \n - Conclusion
+        \n - Prediction""")
 
     elif choice == "Data Cleansing":
         st.title("Data Cleansing")
@@ -82,17 +87,7 @@ def main():
 
     else :
         ml()
-    # else:
-    #     st.title("About Me")
-    #     socials = ["LinkedIn","GitHub","Gmail"]
-    #     LinkedIn = "[Firza Chandra Sandjaya Putra](https://www.linkedin.com/in/firza-chandra-sandjaya-putra-246762136/)"
-    #     Gmail = "[firzasandjaya@gmail.com](firzasandjaya@gmail.com)"
-    #     GitHub = "[FirzaCank](https://github.com/FirzaCank/Firza_Portfolio)"
-    #     linkedin = Image.open("E:\Portofolio\Logo socials\linkedin.png")
-    #     st.image(linkedin, width=10)
-    #     st.write("LinkedIn: ",LinkedIn)
-    #     st.write("\nGitHub :",GitHub)
-    #     st.write("\nGmail: ",Gmail)
+  
 main()
 
 with st.sidebar:
