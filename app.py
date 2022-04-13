@@ -103,5 +103,5 @@ with st.sidebar:
 
     st.write(" ")
     Linkedin = "[Firza Chandra Sandjaya Putra](https://lynk.id/firzacank)"
-    st.text("Streamlit by: ")
+    st.text("App by: ")
     st.write(Linkedin)
