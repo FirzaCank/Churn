@@ -71,11 +71,11 @@ def main():
         \n1. Cleansing and Tranformation Data
         \n2. Exploratory Data Analysis (EDA)
         \n3. Build Machine Learning Model
-        \n - Data Preprocessing
-        \n - Classification Report
-        \n - Confusion Matrix
-        \n - Conclusion
-        \n - Prediction""")
+        \n\t - Data Preprocessing
+        \n\t - Classification Report
+        \n\t - Confusion Matrix
+        \n\t - Conclusion
+        \n\t - Prediction""")
 
     elif choice == "Data Cleansing":
         st.title("Data Cleansing")
