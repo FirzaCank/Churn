@@ -25,9 +25,9 @@ def main():
         Despite the expectation, DQLab Telco already has many customers who switch
         subscriptions to competitors. The management wants to reduce the number of
         customers who churn by using **machine learning by creating the right
-        prediction model to determine whether customers will unsubscribe (churn) or not.**""")
+        prediction model to determine whether customers will unsubscribe (churn) or not** with dummy data from DQLAB Telco""")
 
-        st.caption("_The data is obtained from the dataset-dqlab csv format. The dataset link can be downloaded [here.](https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv)_")
+        st.caption("_The data is obtained from the dataset-dqlab csv format which is dummy data from DQLAB Telco. The dataset link can be downloaded [here.](https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv)_")
 
         st.subheader("Customer Data of June 2020")
         st.caption("*This data is still in the form of raw data, which has not been carried out by the data cleansing and transformation process*")
